@@ -14,4 +14,11 @@ function initMap() {
 	images[0] = "Media/astoria2.jpg";
 	images[1] = "Media/subway.jpg";
 	images[2] = "Media/astoriapark.jpg";
+
+	function changeImg() {
+		document.getElementById('slide_image').src = images[slides];
+		if (slides < images.length - 1) {
+			
+		}
+	}
 }
