@@ -10,4 +10,8 @@ function initMap() {
 	var slides = 0;
 	var images = [];
 	var time = 5000;
+
+	images[0] = "Media/astoria2.jpg";
+	images[1] = "Media/subway.jpg";
+	images[2] = "Media/astoriapark.jpg";
 }
