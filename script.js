@@ -5,7 +5,10 @@ function initMap() {
 		center: myLocation
 		zoom: 15,
 		mapTypeId: 'satellite'
+
+		var marker = new google.maps.Marker({position: myLocation, map: home});
 	}
+
 
 	var slides = 0;
 	var images = [];
