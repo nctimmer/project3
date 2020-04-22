@@ -4,7 +4,6 @@ function initMap() {
 	var mapOptions = {
 		center: myLocation
 		zoom: 15,
-		mapTypeId: google.maps.mapTypeId.SATELLITE
-		mapTypeControlOptions
+		mapTypeId: 'satellite'
 	}
 }
