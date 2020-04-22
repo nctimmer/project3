@@ -18,7 +18,11 @@ function initMap() {
 	function changeImg() {
 		document.getElementById('slide_image').src = images[slides];
 		if (slides < images.length - 1) {
-			
+			slides++;
+		}else {
+			slides = 0;
 		}
+		setTimeout("changeImg()", time);
 	}
+	window.onload = changeImg;
 }
