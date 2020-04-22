@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Open+Sans+Condensed:300|PT+Sans+Narrow|Permanent+Marker&display=swap');
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: underline
+}
+
+h3 {
+	color: #FFFFFF;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h4 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+}
+
+html {
+	background-color: #DC143C;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#navigation {
+	text-align: center;
+}
+
+#certification {
+	color: #41BF0D;
+	text-decoration: underline;
+}
+
+.objective {
+	align-items: center;
+}
+
+.media {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#title {
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #000000;
+	font-weight: 700;
+}
