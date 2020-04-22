@@ -67,3 +67,28 @@ html {
 	color: #000000;
 	font-weight: 700;
 }
+
+.mySlides {
+	display: none;
+}
+
+#slide1 img {
+	width: 100%;
+}
+
+#slide2 img {
+	width: 100%;
+}
+
+#slide3 img {
+	width: 100%;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+}
