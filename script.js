@@ -6,4 +6,8 @@ function initMap() {
 		zoom: 15,
 		mapTypeId: 'satellite'
 	}
+
+	var slides = 0;
+	var images = [];
+	var time = 5000;
 }
