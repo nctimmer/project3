@@ -1,14 +1,14 @@
 function initMap() {
-	var home = new google.maps.Map(document.getElementById('map'));
-	var myLocation = new google.maps.LatLng(73.9235, 40.7644);
-	var mapOptions = {
-		center: myLocation
+
+	var myLatLng = {lat: 40.7644, lng: -73.9235};
+
+	var map = new.google.maps.Map(document.getElementById('map'), {
 		zoom: 15,
-		mapTypeId: 'satellite'
-
-		var marker = new google.maps.Marker({position: myLocation, map: home});
-	}
-
+		center: myLatLng
+		mapTypeId: google.maps.MapTypeId.HYBRID
+	});
+	
+	
 
 	var slides = 0;
 	var images = [];
