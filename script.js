@@ -1,12 +1,13 @@
 function initMap() {
 
-	var myLatLng = {lat: 40.7644, lng: -73.9235};
+	var myLatLng = { lat: 40.7644, lng: -73.9235 };
 
 	var map = new.google.maps.Map(document.getElementById('map'), {
 		zoom: 15,
 		center: myLatLng
 		mapTypeId: google.maps.MapTypeId.HYBRID
 	});
+
 	 var marker = new google.maps.Marker({
 	 	position: myLatLng,
 	 	map: map,
@@ -29,6 +30,6 @@ function initMap() {
 		}else {
 			slides = 0;
 		}
-		setTimeout(changeImg(), time);
+		setTimeout(changeImg, time);
 	}
 	window.onload = changeImg;
