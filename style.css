@@ -125,4 +125,20 @@ img#slide_image{
 	}
 }
 
-@media only screen and (max-width: 555px) {}
+@media only screen and (max-width: 555px) {
+
+	#navigation {
+		background-color: black;
+	}
+
+	#navigation a {
+		color: white;
+		font-size: 23px;
+		margin: 0px 5px;
+	}
+
+	img#myPic{
+		height: 100%;
+		width: 100%;
+	}
+}
