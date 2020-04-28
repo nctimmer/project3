@@ -109,5 +109,20 @@ img#slide_image{
 
 @media only screen and (max-width: 768px) {
 
-	#navigation {}
+	#navigation {
+		background-color: black;
+	}
+
+	#navigation a {
+		color: white;
+		font-size: 25px;
+		margin: 0px 10px;
+	}
+
+	img#myPic{
+		height: 100%;
+		width: 100%;
+	}
 }
+
+@media only screen and (max-width: 555px) {}
