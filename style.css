@@ -76,4 +76,38 @@ img.astoriaImages{
 }
 
 /*Likes.html media */
+img#shoeImage{
+	width: 600px;
+	height: 300px;
+}
+
+iframe#myVideo{
+	width: 560px;
+	margin: 5px, 0;
+}
+
+/*resume.html*/
+
+img#myPic{
+	height: 200px;
+	width: 200px;
+}
+
+/* map.html*/
+
+#map {
+	height: 500px;
+	margin: 5px 0;
+}
+
+img#slide_image{
+	height: auto;
+	width: 100%;
+}
+
+/*css media query*/
+
+@media only screen and (max-width: 768px) {
+
+	#navigation {}
 }
