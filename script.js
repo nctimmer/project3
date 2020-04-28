@@ -29,7 +29,6 @@ function initMap() {
 		}else {
 			slides = 0;
 		}
-		setTimeout("changeImg()", time);
+		setTimeout(changeImg(), time);
 	}
 	window.onload = changeImg;
-}
