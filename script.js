@@ -7,8 +7,12 @@ function initMap() {
 		center: myLatLng
 		mapTypeId: google.maps.MapTypeId.HYBRID
 	});
+	 var marker = new google.maps.Marker({
+	 	position: myLatLng,
+	 	map: map,
+	 });
 	
-	
+}
 
 	var slides = 0;
 	var images = [];
